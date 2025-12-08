@@ -1,0 +1,73 @@
+{
+  "Items": [
+    {
+      "key": 1001,
+      "ItemName": "HP Potion",
+      "ItemType": 0,
+      "Rarity": 0,
+      "HealAmount": 30,
+      "MaxStack": 99,
+      "IsConsumable": true,
+      "Icon": "hp_potion_icon",
+      "ItemTypes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "Raritys": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "key": 2001,
+      "ItemName": "Red Flower",
+      "ItemType": 1,
+      "Rarity": 0,
+      "HealAmount": 0,
+      "MaxStack": 99,
+      "IsConsumable": false,
+      "Icon": "red_flower_icon",
+      "ItemTypes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "Raritys": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "key": 2002,
+      "ItemName": "Mushroom",
+      "ItemType": 1,
+      "Rarity": 0,
+      "HealAmount": 0,
+      "MaxStack": 99,
+      "IsConsumable": false,
+      "Icon": "Mushroom_icon",
+      "ItemTypes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "Raritys": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

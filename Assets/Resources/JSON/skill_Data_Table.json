@@ -1,0 +1,36 @@
+{
+  "Items": [
+    {
+      "key": 100,
+      "Name": "돌진 공격",
+      "SkillType": 0,
+      "DamageMultiplier": 1.8,
+      "Cooldown": 5,
+      "StaminaCost": 25,
+      "Range": 3,
+      "Angle": 60,
+      "SkillTypes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "key": 101,
+      "Name": "충격파",
+      "SkillType": 0,
+      "DamageMultiplier": 2,
+      "Cooldown": 8,
+      "StaminaCost": 0,
+      "Range": 4,
+      "Angle": 80,
+      "SkillTypes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

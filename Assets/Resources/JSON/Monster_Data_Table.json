@@ -1,0 +1,191 @@
+{
+  "Items": [
+    {
+      "key": 10000,
+      "Name": "고블린",
+      "MonsterType": 0,
+      "MaxHP": 120,
+      "ATK": 14,
+      "MoveSpeed": 2.8,
+      "ExpReward": 12,
+      "DetectRange": 10,
+      "DashSpeed": 10,
+      "PreDelay": 0.5,
+      "MonsterTypes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": 10001,
+      "Name": "스워머",
+      "MonsterType": 0,
+      "MaxHP": 150,
+      "ATK": 18,
+      "MoveSpeed": 2,
+      "ExpReward": 15,
+      "DetectRange": 8,
+      "DashSpeed": 8,
+      "PreDelay": 0.6,
+      "MonsterTypes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": 10002,
+      "Name": "늑대",
+      "MonsterType": 0,
+      "MaxHP": 110,
+      "ATK": 16,
+      "MoveSpeed": 3.5,
+      "ExpReward": 12,
+      "DetectRange": 12,
+      "DashSpeed": 12,
+      "PreDelay": 0.35,
+      "MonsterTypes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": 10003,
+      "Name": "슬라임",
+      "MonsterType": 0,
+      "MaxHP": 80,
+      "ATK": 8,
+      "MoveSpeed": 1.5,
+      "ExpReward": 8,
+      "DetectRange": 6,
+      "DashSpeed": 0,
+      "PreDelay": 0.3,
+      "MonsterTypes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": 10004,
+      "Name": "자이언트",
+      "MonsterType": 0,
+      "MaxHP": 300,
+      "ATK": 35,
+      "MoveSpeed": 1.8,
+      "ExpReward": 40,
+      "DetectRange": 15,
+      "DashSpeed": 8,
+      "PreDelay": 0.8,
+      "MonsterTypes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": 10005,
+      "Name": "호넷",
+      "MonsterType": 2,
+      "MaxHP": 60,
+      "ATK": 8,
+      "MoveSpeed": 3.2,
+      "ExpReward": 9,
+      "DetectRange": 9,
+      "DashSpeed": 5,
+      "PreDelay": 0.2,
+      "MonsterTypes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": 11000,
+      "Name": "보스: 화염 골렘",
+      "MonsterType": 2,
+      "MaxHP": 3000,
+      "ATK": 45,
+      "MoveSpeed": 2.5,
+      "ExpReward": 300,
+      "DetectRange": 18,
+      "DashSpeed": 6,
+      "PreDelay": 1.2,
+      "MonsterTypes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": 10006,
+      "Name": "정령사수",
+      "MonsterType": 1,
+      "MaxHP": 80,
+      "ATK": 6,
+      "MoveSpeed": 2.5,
+      "ExpReward": 20,
+      "DetectRange": 15,
+      "DashSpeed": 12,
+      "PreDelay": 0.4,
+      "MonsterTypes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": 10007,
+      "Name": "아처",
+      "MonsterType": 1,
+      "MaxHP": 70,
+      "ATK": 12,
+      "MoveSpeed": 2,
+      "ExpReward": 10,
+      "DetectRange": 14,
+      "DashSpeed": 0,
+      "PreDelay": 0.25,
+      "MonsterTypes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": 10008,
+      "Name": "마법사",
+      "MonsterType": 1,
+      "MaxHP": 100,
+      "ATK": 20,
+      "MoveSpeed": 1.5,
+      "ExpReward": 18,
+      "DetectRange": 16,
+      "DashSpeed": 0,
+      "PreDelay": 0.7,
+      "MonsterTypes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": 10009,
+      "Name": "스켈레톤",
+      "MonsterType": 1,
+      "MaxHP": 90,
+      "ATK": 10,
+      "MoveSpeed": 2.2,
+      "ExpReward": 10,
+      "DetectRange": 12,
+      "DashSpeed": 0,
+      "PreDelay": 0.4,
+      "MonsterTypes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ]
+}
