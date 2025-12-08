@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7760989637576131734
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+      propertyPath: m_Name
+      value: P_RockClumpClassic7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6397349683613300695}
+  m_SourcePrefab: {fileID: 100100000, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+--- !u!1 &7455140895876954567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+  m_PrefabInstance: {fileID: 7760989637576131734}
+  m_PrefabAsset: {fileID: 0}
+--- !u!205 &6397349683613300695
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7455140895876954567}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.094323516, y: 0.15274191, z: 0.07096779}
+  m_Size: 2.864564
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8968082296369584146}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8968082296369584146}
+  - screenRelativeHeight: 0.009719569
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8968082296369584146}
+  m_Enabled: 1
+--- !u!23 &8968082296369584146 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: dc4670904a5f0c24890257ad0f29b44c, type: 3}
+  m_PrefabInstance: {fileID: 7760989637576131734}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1162255904377130099
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MV_RockCubic
+  m_Shader: {fileID: -6465566751694194690, guid: a6fcfd526cd108942a6a8db5ebeda498, type: 3}
+  m_Parent: {fileID: 2100000, guid: 70a5bcccb07223b42a7564d54529ba58, type: 2}
+  m_ModifiedSerializedProperties: 2
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _Contrast _Distant_Rock_Normal_Flatten _Emissive_Strength _Projection_Contrast
+    _RockMetallic _Rock_Brightness _Rock_Normal_Distance _Rock_Normal_Flatten _Rock_Scale
+    _Rock_Texture _Rock_Tint _Saturation _Side_Project_Only _Smoothness _Smoothness_Contrast
+    _Smoothness_Texture _Smoothness_Texture_1 _UseSmoothedNormalMap
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cracks_Normal:
+        m_Texture: {fileID: 2800000, guid: 61639320dcd764f4b99027d69fe238cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_BC:
+        m_Texture: {fileID: 2800000, guid: abd1c55a9a0cde442aebfa261a6fbada, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_Normal_Texture:
+        m_Texture: {fileID: 2800000, guid: 61639320dcd764f4b99027d69fe238cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Contrast: 0.7
+    - _Cracks_Flatten: 0.75
+    - _MaskTopLayer: 0
+    - _Projection_Contrast: 1
+    - _Rock_Brightness: 0.16
+    - _Rock_Normal_Flatten: 0.4
+    - _Rock_Scale: 25
+    - _Side_Project_Only: 0
+    - _TopGrass: 0
+    - _UseSmoothedNormalMap: 1
+    m_Colors: []
+  m_BuildTextureStacks: []

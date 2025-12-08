@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9071146127768638474
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Rock
+  m_Shader: {fileID: -6465566751694194690, guid: a6fcfd526cd108942a6a8db5ebeda498, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _Grass_Base_Color _Grass_Brightness _Grass_Emission _Grass_Saturation
+    _Grass_Scale _Grass_Smoothness _Grass_Texture _Grass_Texture_Size _Grass_Tint
+    _MossTexture _Sand_Angle _Sand_Blend_Offset _Sand_Contrast _Sand_Emission _Sand_Normal_Scale
+    _Sand_Normal_Strength _Sand_Normal_Texture _Sand_Saturation _Sand_Scale _Sand_Smoothness
+    _Sand_Texture _Sand_Tint _Snow_Emission _Snow_Scale _Snow_Smoothness _Snow_Texture
+    _Snow_Tint
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_Color:
+        m_Texture: {fileID: 2800000, guid: b0ea0d3f4d45a2145a794be46e962052, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cracks_Normal:
+        m_Texture: {fileID: 2800000, guid: f12f14374cf697e41a47b0f18408c7fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Grass_Base_Color:
+        m_Texture: {fileID: 2800000, guid: c3cd6b17880b555418de63f8f17af6aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Grass_Smoothness:
+        m_Texture: {fileID: 2800000, guid: af98efa689c1d9f4a943ab7a699b2d75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Grass_Texture:
+        m_Texture: {fileID: 2800000, guid: bc291e6fdaa04a44e9d2d1c76f0e6285, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MossTexture:
+        m_Texture: {fileID: 2800000, guid: af27d632f75721640aa8499b2c88b4b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 8f86544fba8df2b4f91e42798d10cb64, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_BC:
+        m_Texture: {fileID: 2800000, guid: 8bafcf46694e63d4984bbada353cf434, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_Normal_Texture:
+        m_Texture: {fileID: 2800000, guid: f12f14374cf697e41a47b0f18408c7fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_Striping_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_Texture:
+        m_Texture: {fileID: 2800000, guid: 8bafcf46694e63d4984bbada353cf434, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SGSubLayer_24f693c62f76465db6aa773025d3e090_SmoothnessTexture_1507234967_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SGSubLayer_707bf6f3016a4694a72446a06036db11_SmoothnessTexture_1507234967_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_49eab9a0aba74328887af7f701414687_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 8bafcf46694e63d4984bbada353cf434, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_83a45d9f76a04da5b4d4fb6ca01ba214_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b0ea0d3f4d45a2145a794be46e962052, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9cc3cebc6ddd4a0895accbeabffc70a9_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 8f86544fba8df2b4f91e42798d10cb64, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sand_Normal_Texture:
+        m_Texture: {fileID: 2800000, guid: 92453152f36b0334f8aace475deabd7c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sand_Texture:
+        m_Texture: {fileID: 2800000, guid: 14a55b017bd374246bf73cae6b1a46c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Smoothness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Smoothness_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snow_Texture:
+        m_Texture: {fileID: 2800000, guid: 0e55b1b50afba794e9e4c2c0cb16bd4b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stylized_Normal_Map:
+        m_Texture: {fileID: 2800000, guid: f12f14374cf697e41a47b0f18408c7fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubLayer_24f693c62f76465db6aa773025d3e090_SmoothnessTexture_1507234967_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubLayer_4ed3640980d74a8eb985928b2030c976_TopLayerMaskkTexture_1541374869_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubLayer_707bf6f3016a4694a72446a06036db11_SmoothnessTexture_1507234967_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Top_Layer_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 1
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Close_Tint_Blend_Distance: 500
+    - _Contrast: 1
+    - _Cracks_Fadeout_Distance: 110.54
+    - _Cracks_Flatten: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _Distant_Rock_Normal_Flatten: 1
+    - _Distant_Tint_Blend_Lerp_Alpha_Mix: 0.5
+    - _DstBlend: 0
+    - _Emissive_Strength: 0.02
+    - _EnvironmentReflections: 1
+    - _Far_Tint_Blend_Distance: 15000
+    - _FlatTopCrackNormals: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _GrassMetallic: 0
+    - _Grass_Blend_Offset: -0.17
+    - _Grass_Blend_Sharpness: 2.54
+    - _Grass_Brightness: 1
+    - _Grass_Emission: 0
+    - _Grass_Saturation: 1
+    - _Grass_Scale: 10
+    - _Grass_Texture_Size: 5
+    - _MaskTopLayer: 1
+    - _Metallic: 0
+    - _Moss: 0
+    - _Moss_Multiply: 1.94
+    - _Moss_Offset: -0.15
+    - _Moss_Sharpness: 1.92
+    - _Moss_Size: 25
+    - _Moss_Smoothness: 1.3
+    - _Moss_Specular: 0.5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _Projection_Contrast: 0.5
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _RockMetallic: 0.2
+    - _RockStriping: 0
+    - _RockTintStrength: 1
+    - _Rock_Brightness: 0
+    - _Rock_Colormap_Size: 0
+    - _Rock_Normal_Distance: 20000
+    - _Rock_Normal_Flatten: 0
+    - _Rock_Scale: 0.000002
+    - _Rock_Striping_Contrast: 0.25
+    - _Rock_Striping_Squish: 1
+    - _Rock_Strping_Scale: 2500
+    - _Sand_Angle: 0.61
+    - _Sand_Blend_Offset: 0.74
+    - _Sand_Contrast: 2.34
+    - _Sand_Emission: 0.1
+    - _Sand_Normal_Scale: 20
+    - _Sand_Normal_Strength: 0.5
+    - _Sand_Saturation: 1
+    - _Sand_Scale: 5
+    - _Sand_Smoothness: 0
+    - _Saturation: 1
+    - _SideProjectOnly: 0
+    - _Side_Project_Only: 0
+    - _Smoothness: 0.65
+    - _SmoothnessTextureChannel: 0
+    - _Smoothness_Contrast: 1
+    - _Smoothness_Texture_1: 0
+    - _Snow_Emission: 0.03
+    - _Snow_Scale: 11.51
+    - _Snow_Smoothness: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _Texture_Size: 0.01
+    - _TopGrass: 1
+    - _TopLayer_Blend_Offset: -1.07
+    - _TopLayer_Blend_Sharpness: 2.3
+    - _TopSand: 0
+    - _TopSnow: 0
+    - _UseSmoothedNormalMap: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Distant_Tint_Blend: {r: 0.7882354, g: 0.7882354, b: 0.7882354, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Grass_Color: {r: 0.44861698, g: 0.78, b: 0.09437999, a: 0}
+    - _Grass_Tint: {r: 0.89100975, g: 1, b: 0.8066038, a: 1}
+    - _Moss_Color: {r: 0.47058824, g: 0.6509804, b: 0.2627451, a: 1}
+    - _Moss_Color_2: {r: 0.3019608, g: 0.48235294, b: 0.11764706, a: 1}
+    - _Rock_Color: {r: 0.5754717, g: 0.56189924, b: 0.56189924, a: 0}
+    - _Rock_Striping_Overlay_Color: {r: 1, g: 0, b: 1, a: 1}
+    - _Rock_Tint: {r: 1, g: 1, b: 1, a: 0}
+    - _Sand_Tint: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 0}
+    - _Snow_Tint: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

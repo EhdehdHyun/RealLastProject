@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5076924022022753293
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+      propertyPath: m_Name
+      value: P_RockDesert_Clump04
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5175836572106249650}
+  m_SourcePrefab: {fileID: 100100000, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+--- !u!1 &5383405390796779868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+  m_PrefabInstance: {fileID: 5076924022022753293}
+  m_PrefabAsset: {fileID: 0}
+--- !u!205 &5175836572106249650
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383405390796779868}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.04344845, y: -0.07642734, z: 0.2347889}
+  m_Size: 3.187109
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5887698803363074185}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5887698803363074185}
+  - screenRelativeHeight: 0.040612385
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5887698803363074185}
+  m_Enabled: 1
+--- !u!23 &5887698803363074185 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: c1f5eeae3e16de4448f30ce361b069b1, type: 3}
+  m_PrefabInstance: {fileID: 5076924022022753293}
+  m_PrefabAsset: {fileID: 0}
