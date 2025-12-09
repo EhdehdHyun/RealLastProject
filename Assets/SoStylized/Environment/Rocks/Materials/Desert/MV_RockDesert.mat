@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6421125212588813465
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MV_RockDesert
+  m_Shader: {fileID: -6465566751694194690, guid: a6fcfd526cd108942a6a8db5ebeda498, type: 3}
+  m_Parent: {fileID: 2100000, guid: 70a5bcccb07223b42a7564d54529ba58, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _Distant_Rock_Normal_Flatten _Projection_Contrast _Rock_Normal_Texture
+    _Rock_Scale _Rock_Texture _Smoothness _Smoothness_Contrast _Smoothness_Texture_1
+    _Stylized_Normal_Map
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MossTexture:
+        m_Texture: {fileID: 2800000, guid: af27d632f75721640aa8499b2c88b4b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 01ef94261dc9c6d41b4bb15e49a7a2b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_Normal_Texture:
+        m_Texture: {fileID: 2800000, guid: 01ef94261dc9c6d41b4bb15e49a7a2b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_Striping_Texture:
+        m_Texture: {fileID: 2800000, guid: b9c33c606a5dc8d448fe9f54ca36f8dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_Texture:
+        m_Texture: {fileID: 2800000, guid: fe9a5f986b14b514190570e97edd68f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_11af92d9858f420282d79bdcb5d1a172_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 92453152f36b0334f8aace475deabd7c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Smoothness_Texture:
+        m_Texture: {fileID: 2800000, guid: 5731c8052a29e5a438cbe905093531e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snow_Texture:
+        m_Texture: {fileID: 2800000, guid: 0e55b1b50afba794e9e4c2c0cb16bd4b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stylized_Normal_Map:
+        m_Texture: {fileID: 2800000, guid: 01ef94261dc9c6d41b4bb15e49a7a2b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Close_Tint_Blend_Distance: 100
+    - _Cracks_Flatten: 0
+    - _Distant_Rock_Normal_Flatten: 1
+    - _Distant_Tint_Blend_Lerp_Alpha_Mix: 0.8
+    - _Emissive_Strength: 0.2
+    - _Far_Tint_Blend_Distance: 750
+    - _FlatTopCrackNormals: 0
+    - _MaskTopLayer: 0
+    - _Moss: 0
+    - _Moss_Multiply: 2
+    - _Moss_Offset: -0.31
+    - _Moss_Size: 0.1
+    - _Projection_Contrast: 0.52
+    - _RockMetallic: 0
+    - _RockStriping: 1
+    - _Rock_Brightness: 0.02
+    - _Rock_Normal_Flatten: 0.5
+    - _Rock_Scale: 100
+    - _Rock_Striping_Contrast: 1.4
+    - _Rock_Striping_Squish: 1
+    - _Rock_Strping_Scale: 180
+    - _Saturation: 1.2
+    - _Side_Project_Only: 1
+    - _Smoothness: 0.5
+    - _Smoothness_Contrast: 1.11
+    - _Smoothness_Texture_1: 1
+    - _Snow_Emission: 0
+    - _TopGrass: 0
+    - _TopLayer_Blend_Offset: 0.66
+    - _TopLayer_Blend_Sharpness: 4
+    - _TopSand: 1
+    - _TopSnow: 0
+    - _UseSmoothedNormalMap: 0
+    m_Colors:
+    - _Distant_Tint_Blend: {r: 0.74509805, g: 0.427451, b: 0.34117648, a: 1}
+    - _Rock_Striping_Overlay_Color: {r: 0.8349056, g: 0.9758398, b: 1, a: 1}
+    - _Rock_Tint: {r: 1, g: 1, b: 1, a: 0}
+    - _Snow_Tint: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

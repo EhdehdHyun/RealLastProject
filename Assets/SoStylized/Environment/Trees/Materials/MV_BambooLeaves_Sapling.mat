@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3997729908532931166
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MV_BambooLeaves_Sapling
+  m_Shader: {fileID: -6465566751694194690, guid: a65bec4bef9f96c4c9dde8ad2a20a99a, type: 3}
+  m_Parent: {fileID: 2100000, guid: 3e177a45ec37ffa4f9482067878240eb, type: 2}
+  m_ModifiedSerializedProperties: 2
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _Alpha_LCip _Basic_Color_Texture _CullPerpendiculars _Dot_Offset
+    _Emissive_Strength _Fresnel_Power _Gradient_Offset _Gradient_Stretch _Hue_Shift
+    _Hue_Variation _Leaf_Texture _Main_Color _Perpendicular_Trim _SSS_Brightness
+    _SSS_Color _SSS_Size _Second_Color _Smoothness _Smoothness_Texture _Specular
+    _UseColorTexture _UseGradient _UseSmoothnessMap _UseTwoSidedSign _UseWind _WindIntensity
+    _WindScale _WindSpeed
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats: []
+    m_Colors:
+    - _Gradient_Color: {r: 0.11372549, g: 0.7921569, b: 0.38039216, a: 0}
+  m_BuildTextureStacks: []

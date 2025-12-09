@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Mountain
+  m_Shader: {fileID: -6465566751694194690, guid: 6e81e92635c971147869e2fa22f70601, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_4da0d8ebd864413a95e355934b01bf4b_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: af27d632f75721640aa8499b2c88b4b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_5fb9278c5b51455bb51fcf51e6afd491_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 8bafcf46694e63d4984bbada353cf434, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_d8b599d9da0b48309b3bf5702f47bc6c_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 0e55b1b50afba794e9e4c2c0cb16bd4b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f70ef7e3c77a4c2b97e36f9585a47570_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: c3cd6b17880b555418de63f8f17af6aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Grass_Noise_Strength: 0.459
+    - _Grass_Slope_Max: 0
+    - _Grass_Top_Fadeout: 0.6
+    - _Noise_Size: 1000
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Smoothness: 0
+    - _Snow_Noise_Strength: 0.5
+    - _Snow_Top_Amount: 0.3
+    - _Texture_Scale: 320
+    m_Colors: []
+  m_BuildTextureStacks: []
+--- !u!114 &9092252507167405658
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

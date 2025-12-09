@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MV_OakBark_Snow
+  m_Shader: {fileID: -6465566751694194690, guid: 016550df8fe3d84418b52fbdc767f495, type: 3}
+  m_Parent: {fileID: 2100000, guid: ec39f879edfcb2446aba85dbc0477f28, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _Emissive_Strength _Moss _MossTexture _Moss_Color _Moss_Color_2
+    _Moss_Multiply _Moss_Offset _Moss_Sharpness _Moss_Size _Moss_Smoothness _Moss_Specular
+    _Normal_Strength _Smoothness_Multiplier _Specular _Tint_Color _Tint_Mix _XScale
+    _YScale
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Emissive_Strength: 0.1
+    - _Snow: 1
+    - _SnowWorldAligned: 1
+    - _Snow_Scale: 500
+    - _Specular: 0.04
+    - _Tint_Mix: 0.5
+    m_Colors:
+    - _Snow_Tint: {r: 0, g: 0, b: 0, a: 0}
+    - _Tint_Color: {r: 0.5176471, g: 0.44705886, b: 0.28235295, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &8743017021537035555
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5741876944220943463
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MV_OakLeaves_Snowy
+  m_Shader: {fileID: -6465566751694194690, guid: a65bec4bef9f96c4c9dde8ad2a20a99a, type: 3}
+  m_Parent: {fileID: 2100000, guid: 73bce71157dae5240a0cf257a9199e14, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _COLOR2ENABLE_ON
+  - _COLOR2OVERLAYTYPE_VERTEX_POSITION_BASED
+  - _ENABLEWIND_ON
+  - _SECONDCOLOROVERLAYTYPE_WORLD_POSITION
+  - _SNOWOVERLAYTYPE_WORLD_NORMAL_BASED
+  - _UVWIND_ON
+  - _WIND_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _Alpha_LCip _Basic_Color_Texture _CullPerpendiculars _Dot_Offset
+    _Emissive_Strength _Fresnel_Power _Gradient_Offset _Gradient_Stretch _Hue_Shift
+    _Hue_Variation _Leaf_Texture _Main_Color _Perpendicular_Trim _SSS_Brightness
+    _SSS_Color _SSS_Size _Second_Color _Smoothness _Smoothness_Texture _Specular
+    _UseColorTexture _UseGradient _UseSmoothnessMap
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Emissive_Strength: 0.145
+    - _Hue_Variation: 0
+    - _Smoothness: 0
+    - _Specular: 0
+    - _WindIntensity: 1
+    m_Colors:
+    - _Gradient_Color: {r: 0.10012461, g: 0.23577844, b: 0.4716981, a: 0}
+    - _Main_Color: {r: 0.7686275, g: 0.8235295, b: 0.8705883, a: 1}
+    - _SSS_Color: {r: 0.7686275, g: 0.8235295, b: 0.8705883, a: 0}
+    - _Second_Color: {r: 0.2784314, g: 0.40000004, b: 0.54901963, a: 0}
+  m_BuildTextureStacks: []

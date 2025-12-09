@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MV_RockHexic_Spire_Mossy
+  m_Shader: {fileID: -6465566751694194690, guid: a6fcfd526cd108942a6a8db5ebeda498, type: 3}
+  m_Parent: {fileID: 2100000, guid: 1f9a4615970c0794c81a9ed8d650ebc9, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Moss: 1
+    - _Moss_Multiply: 1.94
+    - _Moss_Offset: -0.15
+    - _Moss_Sharpness: 1.92
+    - _Moss_Size: 25
+    m_Colors:
+    - _Moss_Color: {r: 0.470234, g: 0.6509434, b: 0.26099145, a: 1}
+    - _Moss_Color_2: {r: 0.3016432, g: 0.4811321, b: 0.11574403, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &2188761557537225632
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
